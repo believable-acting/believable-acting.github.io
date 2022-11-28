@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Toward Believable Acting for Autonomous Animated Characters.">
+  <meta name="keywords" content="believability, acting, reinforcement learning, procedural animation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toward Believable Acting for Autonomous Animated Characters</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Toward Believable Acting for Autonomous Animated Characters</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="http://otherthings.com">Cassidy Curtis</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0003-1147-7544">Sigurdur Ord Adalgeirsson</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-1753-9526">Horia Stefan Ciurdar</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-3752-0945">Peter F McDermott</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-9067-5567">JD Vel&aacute;sqez</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-6006-9523">W. Bradley Knox</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-0319-8847">Alonso Martinez</a>,
+            </span>
+            <span class="author-block">
+              <a href="http://deimorph.com">Dei Gaztelumendi</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0002-1715-3797">Norberto Goussies</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0003-2181-2246">Tianyu Liu</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0003-1934-0155">Palash Nandy</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Google Research</span>
+          </div>
+
+          <h1 style="font-size:24px;font-weight:bold"><a href="https://mig2022.cs.purdue.edu/#awards">Winner, Best Presentation, MIG '22</a></h1>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3561975.3562941"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/10.1145/3561975.3562941"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>DOI</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=0RB6DASdUP8"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=dYQ2Wce6j2M"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Talk</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/0RB6DASdUP8?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper describes design principles and a system, based
+            on reinforcement learning and procedural animation, to
+            create an autonomous character capable of believable
+            acting—exhibiting a responsive and expressive illusion of
+            interactive life, grounded in its subjective experience of
+            its world. The design principles incorporate knowledge
+            from animation, human-computer interaction, and
+            psychology, articulating guidelines that, when followed,
+            support a viewer’s suspension of disbelief. The system’s
+            reinforcement learning brain generates action, emotion,
+            and attention signals based on motivational drives, and
+            its procedural animation system translates those signals
+            into expressive biophysical movement in real time. We
+            demonstrate the system on a stylized quadruped character
+            in a virtual habitat. In a user study, participants rated
+            the character favorably on animacy and ability to
+            experience emotions, which is consistent with finding the
+            character believable.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+    <!-- Talk video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">MIG '22 Talk</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/dYQ2Wce6j2M?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Talk video. -->
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+@inproceedings{10.1145/3561975.3562941,
+  author = {Curtis, Cassidy and Adalgeirsson, Sigurdur Orn and Ciurdar, Horia Stefan and McDermott, Peter and Vel\'{a}squez, JD and Knox, W. Bradley and Martinez, Alonso and Gaztelumendi, Dei and Goussies, Norberto Adrian and Liu, Tianyu and Nandy, Palash},
+  title = {Toward Believable Acting for Autonomous Animated Characters},
+  year = {2022},
+  isbn = {9781450398886},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3561975.3562941},
+  doi = {10.1145/3561975.3562941},
+  booktitle = {Proceedings of the 15th ACM SIGGRAPH Conference on Motion, Interaction and Games},
+  articleno = {1},
+  numpages = {15},
+  keywords = {synthetic characters, believability, acting, reinforcement learning, animation, autonomous characters},
+  location = {Guanajuato, Mexico},
+  series = {MIG '22}
+}
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div align="center" class="container">
+    <div class="columns is-centered">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            The design of this website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
