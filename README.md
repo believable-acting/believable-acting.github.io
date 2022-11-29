@@ -1,6 +1,6 @@
 # Toward Believable Acting for Autonomous Animated Characters
 
-This is the repository that contains source code for the [Believable Acting website](https://believable-acting.github.io).
+This is the repository that contains source code for the [Believable Acting website](https://cassidycurtis.github.io/believable-acting).
 
 If you find this useful for your work, please cite:
 ```
